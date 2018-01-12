@@ -62,6 +62,6 @@
 - name: making sure uwsgi-emperor is running
   service:
     name: uwsgi-emperor
-    state: restarted
+    state: started
     enabled: yes
   become: yes
